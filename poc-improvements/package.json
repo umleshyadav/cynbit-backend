@@ -1,0 +1,17 @@
+{
+  "name": "cynbit-backend-improvements-poc",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Production-grade reference implementation for Cynbit backend architecture improvements",
+  "private": true,
+  "scripts": {
+    "test": "node --experimental-strip-types --test test/suite.test.mjs"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.5.0"
+  }
+}
