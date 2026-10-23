@@ -1,0 +1,209 @@
+{
+  "base_url": "https://www.cynbit.in",
+  "routes": {
+    "/": {
+      "status": 200,
+      "server": "Unknown",
+      "cache_control": "None",
+      "vercel_cache": "None",
+      "next_prerender": "0",
+      "cors_allow_origin": "None",
+      "hsts": "None",
+      "missing_security_headers": [
+        "Content-Security-Policy",
+        "X-Frame-Options",
+        "X-Content-Type-Options",
+        "Referrer-Policy",
+        "Permissions-Policy"
+      ],
+      "body_length_bytes": 100497
+    },
+    "/services": {
+      "status": 200,
+      "server": "Unknown",
+      "cache_control": "None",
+      "vercel_cache": "None",
+      "next_prerender": "0",
+      "cors_allow_origin": "None",
+      "hsts": "None",
+      "missing_security_headers": [
+        "Content-Security-Policy",
+        "X-Frame-Options",
+        "X-Content-Type-Options",
+        "Referrer-Policy",
+        "Permissions-Policy"
+      ],
+      "body_length_bytes": 76228
+    },
+    "/careers": {
+      "status": 200,
+      "server": "Unknown",
+      "cache_control": "None",
+      "vercel_cache": "None",
+      "next_prerender": "0",
+      "cors_allow_origin": "None",
+      "hsts": "None",
+      "missing_security_headers": [
+        "Content-Security-Policy",
+        "X-Frame-Options",
+        "X-Content-Type-Options",
+        "Referrer-Policy",
+        "Permissions-Policy"
+      ],
+      "body_length_bytes": 125468
+    },
+    "/careers/backend-developer-intern": {
+      "status": 200,
+      "server": "Unknown",
+      "cache_control": "None",
+      "vercel_cache": "None",
+      "next_prerender": "0",
+      "cors_allow_origin": "None",
+      "hsts": "None",
+      "missing_security_headers": [
+        "Content-Security-Policy",
+        "X-Frame-Options",
+        "X-Content-Type-Options",
+        "Referrer-Policy",
+        "Permissions-Policy"
+      ],
+      "body_length_bytes": 78259
+    },
+    "/bitelevate": {
+      "status": 200,
+      "server": "Unknown",
+      "cache_control": "None",
+      "vercel_cache": "None",
+      "next_prerender": "0",
+      "cors_allow_origin": "None",
+      "hsts": "None",
+      "missing_security_headers": [
+        "Content-Security-Policy",
+        "X-Frame-Options",
+        "X-Content-Type-Options",
+        "Referrer-Policy",
+        "Permissions-Policy"
+      ],
+      "body_length_bytes": 97314
+    },
+    "/contact": {
+      "status": 200,
+      "server": "Unknown",
+      "cache_control": "None",
+      "vercel_cache": "None",
+      "next_prerender": "0",
+      "cors_allow_origin": "None",
+      "hsts": "None",
+      "missing_security_headers": [
+        "Content-Security-Policy",
+        "X-Frame-Options",
+        "X-Content-Type-Options",
+        "Referrer-Policy",
+        "Permissions-Policy"
+      ],
+      "body_length_bytes": 64021
+    },
+    "/robots.txt": {
+      "status": 200,
+      "server": "Unknown",
+      "cache_control": "None",
+      "vercel_cache": "None",
+      "next_prerender": "0",
+      "cors_allow_origin": "None",
+      "hsts": "None",
+      "missing_security_headers": [
+        "Content-Security-Policy",
+        "X-Frame-Options",
+        "X-Content-Type-Options",
+        "Referrer-Policy",
+        "Permissions-Policy"
+      ],
+      "body_length_bytes": 200
+    },
+    "/sitemap.xml": {
+      "status": 200,
+      "server": "Unknown",
+      "cache_control": "None",
+      "vercel_cache": "None",
+      "next_prerender": "0",
+      "cors_allow_origin": "None",
+      "hsts": "None",
+      "missing_security_headers": [
+        "Content-Security-Policy",
+        "X-Frame-Options",
+        "X-Content-Type-Options",
+        "Referrer-Policy",
+        "Permissions-Policy"
+      ],
+      "body_length_bytes": 14264
+    },
+    "/api": {
+      "status": 404,
+      "server": "Unknown",
+      "cache_control": "None",
+      "vercel_cache": "None",
+      "next_prerender": "0",
+      "cors_allow_origin": "None",
+      "hsts": "None",
+      "missing_security_headers": [
+        "Content-Security-Policy",
+        "X-Frame-Options",
+        "X-Content-Type-Options",
+        "Referrer-Policy",
+        "Permissions-Policy"
+      ],
+      "body_length_bytes": 15072
+    }
+  },
+  "server_actions": [
+    {
+      "id": "404e55971a25359df792b3be859e08deff64cc9a32",
+      "name": "subscribeToNewsletter",
+      "source_chunk": "layout-98cfbe01c086f5c9.js"
+    },
+    {
+      "id": "40cd6641ed4a545ec3ce111e8ad06534a97276cfcb",
+      "name": "submitServiceLead",
+      "source_chunk": "page-fcdda5d5573a174a.js"
+    },
+    {
+      "id": "4058b3b1af02d0b1088a23b40ed00cd70ddab2ea7f",
+      "name": "submitCandidateApplication",
+      "source_chunk": "page-f17d764f47626b61.js"
+    },
+    {
+      "id": "40387974b4d37eb602a304782b6f01342d163757bd",
+      "name": "submitBitelevateApplication",
+      "source_chunk": "page-a3541b77e4ba46dd.js"
+    },
+    {
+      "id": "40abb1a98c0be9294b518c6ca84ffcc8f63f3a5849",
+      "name": "submitInquiry",
+      "source_chunk": "page-c119885162e933b7.js"
+    }
+  ],
+  "security_headers_audit": {},
+  "discovered_bundles": [
+    "/_next/static/chunks/4bd1b696-100b9d70ed4e49c1.js",
+    "/_next/static/chunks/1255-eae4096fb21f1304.js",
+    "/_next/static/chunks/main-app-0ee650784ad95c4e.js",
+    "/_next/static/chunks/2619-04bc32f026a0d946.js",
+    "/_next/static/chunks/5563-f2fb65d9a5ac2236.js",
+    "/_next/static/chunks/app/error-8e28947332869732.js",
+    "/_next/static/chunks/app/not-found-6bdce7b330d1cbd7.js",
+    "/_next/static/chunks/app/layout-0a45bc14474ca02b.js",
+    "/_next/static/chunks/1356-2ed480e29f4f7933.js",
+    "/_next/static/chunks/4773-f4ec9607d8ab92ce.js",
+    "/_next/static/chunks/app/(marketing)/layout-98cfbe01c086f5c9.js",
+    "/_next/static/chunks/app/(marketing)/template-a9d572c12d5d324b.js",
+    "/_next/static/chunks/app/(marketing)/page-786d2581113641b8.js",
+    "/_next/static/chunks/app/global-error-2ee825408f612079.js",
+    "/_next/static/chunks/polyfills-42372ed130431b0a.js",
+    "/_next/static/chunks/webpack-13fd2c27c7c4c378.js",
+    "/_next/static/chunks/app/(marketing)/services/page-fcdda5d5573a174a.js",
+    "/_next/static/chunks/app/(marketing)/careers/page-f771ac25a45fddba.js",
+    "/_next/static/chunks/app/(marketing)/careers/%5Bslug%5D/page-f17d764f47626b61.js",
+    "/_next/static/chunks/app/(marketing)/bitelevate/page-a3541b77e4ba46dd.js",
+    "/_next/static/chunks/app/(marketing)/contact/page-c119885162e933b7.js"
+  ]
+}
