@@ -12,9 +12,12 @@
 
 This report presents an architectural and technical audit of Cynbit’s publicly observable web infrastructure, API behavior, data handling, and backend execution flows. The analysis was conducted through non-intrusive observation of HTTP response headers, Next.js Server Action signatures, React Server Component (RSC) Flight payloads, client bundle decompilation, and sitemap topology across core production surfaces:
 - **Landing & Services:** `https://www.cynbit.in/` and `/services`
+- **Products & Enterprise Solutions:** `/products` (TenantEase, Cynbit Studio, AI Agents)
+- **Client Case Studies:** `/case-studies` (13 dynamic architectural transformations)
 - **Talent Acquisition & Careers:** `https://www.cynbit.in/careers` and `/careers/[slug]`
-- **Ecosystem & EdTech:** `https://www.cynbit.in/bitelevate`
+- **Ecosystem & EdTech:** `https://www.cynbit.in/bitelevate` and `/bitelevate/paths`
 - **Inquiry & Communications:** `https://www.cynbit.in/contact`
+- **Campus & Content:** `/diaries` and `/blog`
 - **Candidate Assessment Portal:** `https://www.cynbit.in/candidate/[token]`
 
 ### Key Takeaways
@@ -111,6 +114,7 @@ Decompilation and static bundle parsing of client-side chunks revealed 12 active
 | `verifyCashfreePaymentStatus` | `6056f95ff3ed5030fc6ba9bc411a9d75382a4d8d3c` | `page_candidate_token.js` | Client-initiated transaction verification |
 | `verifyAndProcessEnrollment` | `604521472f127be36298a47eb7486615d4eb6c7c34` | `page_candidate_token.js` | Post-payment enrollment fulfillment |
 | `submitCandidateOnboarding` | `706cea66d4ebe08643dc74939b31a17c7802ba0b6f` | `page_candidate_token.js` | NDA / Offer Letter digital signature execution |
+| `submitDiaryEntry` | `403147426dcfa5b83725a5937a9f8ef4649c136038` | `page-0ea44fca8b68a29f.js` | Campus diary anonymous community submission |
 
 ---
 
