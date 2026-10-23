@@ -3,12 +3,12 @@
   "routes": {
     "/": {
       "status": 200,
-      "server": "Unknown",
-      "cache_control": "None",
-      "vercel_cache": "None",
-      "next_prerender": "0",
-      "cors_allow_origin": "None",
-      "hsts": "None",
+      "server": "Vercel",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "vercel_cache": "HIT",
+      "next_prerender": "1",
+      "cors_allow_origin": "*",
+      "hsts": "max-age=63072000",
       "missing_security_headers": [
         "Content-Security-Policy",
         "X-Frame-Options",
@@ -20,12 +20,12 @@
     },
     "/services": {
       "status": 200,
-      "server": "Unknown",
-      "cache_control": "None",
-      "vercel_cache": "None",
-      "next_prerender": "0",
-      "cors_allow_origin": "None",
-      "hsts": "None",
+      "server": "Vercel",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "vercel_cache": "HIT",
+      "next_prerender": "1",
+      "cors_allow_origin": "*",
+      "hsts": "max-age=63072000",
       "missing_security_headers": [
         "Content-Security-Policy",
         "X-Frame-Options",
@@ -37,12 +37,12 @@
     },
     "/careers": {
       "status": 200,
-      "server": "Unknown",
-      "cache_control": "None",
-      "vercel_cache": "None",
+      "server": "Vercel",
+      "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate",
+      "vercel_cache": "MISS",
       "next_prerender": "0",
       "cors_allow_origin": "None",
-      "hsts": "None",
+      "hsts": "max-age=63072000",
       "missing_security_headers": [
         "Content-Security-Policy",
         "X-Frame-Options",
@@ -54,12 +54,12 @@
     },
     "/careers/backend-developer-intern": {
       "status": 200,
-      "server": "Unknown",
-      "cache_control": "None",
-      "vercel_cache": "None",
+      "server": "Vercel",
+      "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate",
+      "vercel_cache": "MISS",
       "next_prerender": "0",
       "cors_allow_origin": "None",
-      "hsts": "None",
+      "hsts": "max-age=63072000",
       "missing_security_headers": [
         "Content-Security-Policy",
         "X-Frame-Options",
@@ -67,16 +67,16 @@
         "Referrer-Policy",
         "Permissions-Policy"
       ],
-      "body_length_bytes": 78259
+      "body_length_bytes": 78302
     },
     "/bitelevate": {
       "status": 200,
-      "server": "Unknown",
-      "cache_control": "None",
-      "vercel_cache": "None",
-      "next_prerender": "0",
+      "server": "Vercel",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "vercel_cache": "HIT",
+      "next_prerender": "1",
       "cors_allow_origin": "None",
-      "hsts": "None",
+      "hsts": "max-age=63072000",
       "missing_security_headers": [
         "Content-Security-Policy",
         "X-Frame-Options",
@@ -86,14 +86,31 @@
       ],
       "body_length_bytes": 97314
     },
+    "/bitelevate/paths": {
+      "status": 200,
+      "server": "Vercel",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "vercel_cache": "HIT",
+      "next_prerender": "1",
+      "cors_allow_origin": "None",
+      "hsts": "max-age=63072000",
+      "missing_security_headers": [
+        "Content-Security-Policy",
+        "X-Frame-Options",
+        "X-Content-Type-Options",
+        "Referrer-Policy",
+        "Permissions-Policy"
+      ],
+      "body_length_bytes": 65998
+    },
     "/contact": {
       "status": 200,
-      "server": "Unknown",
-      "cache_control": "None",
-      "vercel_cache": "None",
-      "next_prerender": "0",
+      "server": "Vercel",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "vercel_cache": "HIT",
+      "next_prerender": "1",
       "cors_allow_origin": "None",
-      "hsts": "None",
+      "hsts": "max-age=63072000",
       "missing_security_headers": [
         "Content-Security-Policy",
         "X-Frame-Options",
@@ -103,14 +120,116 @@
       ],
       "body_length_bytes": 64021
     },
-    "/robots.txt": {
+    "/products": {
       "status": 200,
-      "server": "Unknown",
-      "cache_control": "None",
-      "vercel_cache": "None",
+      "server": "Vercel",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "vercel_cache": "HIT",
+      "next_prerender": "1",
+      "cors_allow_origin": "*",
+      "hsts": "max-age=63072000",
+      "missing_security_headers": [
+        "Content-Security-Policy",
+        "X-Frame-Options",
+        "X-Content-Type-Options",
+        "Referrer-Policy",
+        "Permissions-Policy"
+      ],
+      "body_length_bytes": 82270
+    },
+    "/case-studies": {
+      "status": 200,
+      "server": "Vercel",
+      "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate",
+      "vercel_cache": "MISS",
       "next_prerender": "0",
       "cors_allow_origin": "None",
-      "hsts": "None",
+      "hsts": "max-age=63072000",
+      "missing_security_headers": [
+        "Content-Security-Policy",
+        "X-Frame-Options",
+        "X-Content-Type-Options",
+        "Referrer-Policy",
+        "Permissions-Policy"
+      ],
+      "body_length_bytes": 156743
+    },
+    "/blog": {
+      "status": 200,
+      "server": "Vercel",
+      "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate",
+      "vercel_cache": "MISS",
+      "next_prerender": "0",
+      "cors_allow_origin": "None",
+      "hsts": "max-age=63072000",
+      "missing_security_headers": [
+        "Content-Security-Policy",
+        "X-Frame-Options",
+        "X-Content-Type-Options",
+        "Referrer-Policy",
+        "Permissions-Policy"
+      ],
+      "body_length_bytes": 91303
+    },
+    "/diaries": {
+      "status": 200,
+      "server": "Vercel",
+      "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate",
+      "vercel_cache": "MISS",
+      "next_prerender": "0",
+      "cors_allow_origin": "None",
+      "hsts": "max-age=63072000",
+      "missing_security_headers": [
+        "Content-Security-Policy",
+        "X-Frame-Options",
+        "X-Content-Type-Options",
+        "Referrer-Policy",
+        "Permissions-Policy"
+      ],
+      "body_length_bytes": 70781
+    },
+    "/story": {
+      "status": 200,
+      "server": "Vercel",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "vercel_cache": "HIT",
+      "next_prerender": "1",
+      "cors_allow_origin": "*",
+      "hsts": "max-age=63072000",
+      "missing_security_headers": [
+        "Content-Security-Policy",
+        "X-Frame-Options",
+        "X-Content-Type-Options",
+        "Referrer-Policy",
+        "Permissions-Policy"
+      ],
+      "body_length_bytes": 59994
+    },
+    "/team": {
+      "status": 200,
+      "server": "Vercel",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "vercel_cache": "HIT",
+      "next_prerender": "1",
+      "cors_allow_origin": "*",
+      "hsts": "max-age=63072000",
+      "missing_security_headers": [
+        "Content-Security-Policy",
+        "X-Frame-Options",
+        "X-Content-Type-Options",
+        "Referrer-Policy",
+        "Permissions-Policy"
+      ],
+      "body_length_bytes": 60690
+    },
+    "/robots.txt": {
+      "status": 200,
+      "server": "Vercel",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "vercel_cache": "HIT",
+      "next_prerender": "0",
+      "cors_allow_origin": "*",
+      "hsts": "max-age=63072000",
       "missing_security_headers": [
         "Content-Security-Policy",
         "X-Frame-Options",
@@ -122,12 +241,12 @@
     },
     "/sitemap.xml": {
       "status": 200,
-      "server": "Unknown",
-      "cache_control": "None",
-      "vercel_cache": "None",
+      "server": "Vercel",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "vercel_cache": "MISS",
       "next_prerender": "0",
       "cors_allow_origin": "None",
-      "hsts": "None",
+      "hsts": "max-age=63072000",
       "missing_security_headers": [
         "Content-Security-Policy",
         "X-Frame-Options",
@@ -139,12 +258,12 @@
     },
     "/api": {
       "status": 404,
-      "server": "Unknown",
-      "cache_control": "None",
-      "vercel_cache": "None",
+      "server": "Vercel",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "vercel_cache": "HIT",
       "next_prerender": "0",
-      "cors_allow_origin": "None",
-      "hsts": "None",
+      "cors_allow_origin": "*",
+      "hsts": "max-age=63072000",
       "missing_security_headers": [
         "Content-Security-Policy",
         "X-Frame-Options",
@@ -180,9 +299,14 @@
       "id": "40abb1a98c0be9294b518c6ca84ffcc8f63f3a5849",
       "name": "submitInquiry",
       "source_chunk": "page-c119885162e933b7.js"
+    },
+    {
+      "id": "403147426dcfa5b83725a5937a9f8ef4649c136038",
+      "name": "submitDiaryEntry",
+      "source_chunk": "page-0ea44fca8b68a29f.js"
     }
   ],
-  "security_headers_audit": {},
+  "security_posture": {},
   "discovered_bundles": [
     "/_next/static/chunks/4bd1b696-100b9d70ed4e49c1.js",
     "/_next/static/chunks/1255-eae4096fb21f1304.js",
@@ -204,6 +328,13 @@
     "/_next/static/chunks/app/(marketing)/careers/page-f771ac25a45fddba.js",
     "/_next/static/chunks/app/(marketing)/careers/%5Bslug%5D/page-f17d764f47626b61.js",
     "/_next/static/chunks/app/(marketing)/bitelevate/page-a3541b77e4ba46dd.js",
-    "/_next/static/chunks/app/(marketing)/contact/page-c119885162e933b7.js"
+    "/_next/static/chunks/app/(marketing)/bitelevate/paths/page-7facb42049f7131f.js",
+    "/_next/static/chunks/app/(marketing)/contact/page-c119885162e933b7.js",
+    "/_next/static/chunks/app/(marketing)/products/page-ab14ec4fa1d80a8c.js",
+    "/_next/static/chunks/app/(marketing)/case-studies/page-ad765e718bdec8f9.js",
+    "/_next/static/chunks/app/(marketing)/blog/page-14737dbfb50be984.js",
+    "/_next/static/chunks/app/(marketing)/diaries/page-0ea44fca8b68a29f.js",
+    "/_next/static/chunks/app/(marketing)/story/page-cdf573280352ff1e.js",
+    "/_next/static/chunks/app/(marketing)/team/page-ce0cc5322ab85b94.js"
   ]
 }
