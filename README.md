@@ -94,7 +94,7 @@ npm --prefix poc-improvements test
 When submitting via your dedicated candidate portal ([Submit Your Work](https://www.cynbit.in/candidate/cmsqg4pyr000004l0ua8myhsu)), paste these technical setup notes:
 
 ```text
-Repository URL: <YOUR_PUBLIC_GITHUB_REPO_URL>
+Repository URL: https://github.com/umleshyadav/cynbit-backend
 
 Technical Setup & Implementation Summary:
 1. Executive Deliverables:
